@@ -1,0 +1,32 @@
+{
+  "name": "OAI five-feature Cox model",
+  "coefficients": {
+    "age": 0.009794618769506042,
+    "sex_num": -0.05663776628434419,
+    "cart_area_PL": 0.22040984690333232,
+    "cart_area_FMA": 0.4792332736416064,
+    "bml_size_SS": 0.7042472817440033
+  },
+  "means": {
+    "age": 60.628905257810516,
+    "sex_num": 0.5941071882143765,
+    "cart_area_PL": 0.7767335534671069,
+    "cart_area_FMA": 0.665989331978664,
+    "bml_size_SS": 0.28397256794513587
+  },
+  "baseline_survival": {
+    "5": 0.9582727790091129,
+    "10": 0.9215466433061293
+  },
+  "thresholds": {
+    "median": 1.0396564898361427,
+    "tertile_1": 0.695417932634929,
+    "tertile_2": 1.4587587907181327
+  },
+  "training": {
+    "knees": 3937,
+    "events": 501,
+    "c_index": 0.7722750900704966
+  },
+  "provenance": "Frozen OAI development Cox model (lifelines CoxPHFitter, penalizer=0.01). Aggregate means and risk thresholds were checked against the authorized development dataset in the original local validation; participant-level training data are not distributed."
+}

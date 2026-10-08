@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the software release used and the related manuscript identified in README.md."
+type: software
+title: "OAI Knee Risk Studio"
+version: "1.0.0"
+authors:
+  - family-names: "Zhai"
+    given-names: "Weihao"
+abstract: "Local research viewer and frozen five-predictor Cox calculator for knee replacement net-risk estimates. No participant-level data or full causal-analysis pipeline is distributed."
+keywords:
+  - knee osteoarthritis
+  - MRI
+  - MOAKS
+  - prognostic model

@@ -1,0 +1,4 @@
+-r requirements.txt
+pandas>=2
+lifelines>=0.30
+pyarrow>=14
